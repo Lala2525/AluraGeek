@@ -1,0 +1,151 @@
+.estiloencabezado{
+    display: flex;
+    color: #E5E5E5;
+    background-color: #5300C8;
+    justify-content: center;
+    margin-bottom: 80px;
+    
+}
+
+.estilofooter{
+    display: flex;
+    color: #E5E5E5;
+    background-color: #5300C8;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+.estiloletrageek{
+    font-family:'Press Start 2P', Courier, tahoma;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.desarrollado{
+    font-family:'IBM Plex Mono', Courier, tahoma;
+    font-size: 16px;
+}
+
+.trescorazonestituloimagen{
+    width: 70px;
+    height: 25px;
+    margin-top: 20px;
+}
+
+.contenedor{
+    display: flex;
+    gap:20px ;
+    width: 90%;
+    height: auto;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    gap:10px ;
+}
+
+.izquierda{
+    flex: 60%;
+
+}
+.derecha{
+    flex: 40%;
+}
+
+.productcard{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.textomisproductos{
+    font-family:'Press Start 2P', Courier, tahoma;
+    font-size: 36px;
+    font-weight: bold;
+    
+}
+
+.listaproductos{
+    display: flex; 
+    flex-direction: row; 
+    gap: 5px;
+}
+
+.estiloagregarproducto{
+    font-family:'Press Start 2P', Courier, tahoma;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+input{
+    width: 300px;  
+    height: 30px; 
+    border-radius: 20px;
+    border: 3px solid #03318C;
+    gap: 15px;
+}
+
+input::placeholder{
+    font-size: 16px;
+    color: #03318C;
+}
+
+.estiloinputs{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px 0;     
+}
+
+.tituloderecha{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.button {
+    background-color:  #03318C;
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-size: 16px;
+    cursor: pointer; 
+
+}
+
+.button:hover {
+    background-color: #002266; /* Color azul más oscuro al pasar */
+}
+
+.button-clear {
+    background-color: white; /* Fondo blanco */
+    color: #003399; /* Texto azul */
+    border: 2px solid #003399; /* Borde azul */
+}
+
+.button-clear:hover {
+    background-color: #e6e6e6; /* Fondo gris claro al pasar */
+}
+
+.estilobotones{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
